@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: orange;
+    padding: 3px;
+    color: yellow;
+    margin-top: 0px;
+
+}
+.box{
+    border: 10px solid;
+    border-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+    color: yellow;
+    width: 30vw;
+    background-color: indigo;
+    margin-top: 10px;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    
+    
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tnc {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#dob{
+    width: 165px;
+}
+
+.gender-group {
+    margin-right: 48px;
+}
+
+#country {
+    margin-right: 117px;
+}
+
+.form-group2{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 5px;
+    background-color: orange;
+    padding: 10px;
+    
+}
+
+#btn1{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+#btn2{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
